@@ -323,8 +323,7 @@
                           Elimina_Planilla_Abastecimiento : "Elimina_Planilla_Abastecimiento",
                           id_planilla : id_planilla
 			}, function(responseText) {
-                    
-                        // Listar_Planillas_Abastecimmiento_Borrador();
+                     // Listar_Planillas_Abastecimmiento_Borrador();
 			});   
   
     }        
