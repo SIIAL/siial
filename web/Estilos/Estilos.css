@@ -1,0 +1,87 @@
+
+
+.label {
+  display: block;
+  margin: .5em 0 0 0;
+}
+
+
+
+.div {
+  margin: .4em 0;
+}
+.div_label {
+  width: 25%;
+  float: left;
+}
+input{
+
+-moz-border-radius:6px; /* esto da forma de redondeado al input */
+-webkit-border-radius:6px;
+width:250px; height:20px;/* Medidas del Input que esta redondeado */
+background:#EEE
+
+}
+
+select{
+ -moz-border-radius:6px; /* esto da forma de redondeado al input */
+-webkit-border-radius:6px;
+width:250px; height:20px;/* Medidas del Input que esta redondeado */
+background:#EEE   
+    
+    
+    
+}
+
+.table {border: groove #3399FF ;
+-moz-border-radius:10px; /* esto da forma de redondeado a la tabla*/
+-webkit-user-select: text;
+/* background: -moz-linear-gradient(#0066FF,#00FF00); /// esto es degradado de colores */
+
+}
+
+td {
+background: white;
+color: #666666;
+font-weight: bold;
+font-size: 12px;
+-moz-border-radius: 9px;
+-webkit-border-radius: 9px;
+border-radius: 9px;
+padding:2px
+}
+.title {
+height: 25px;
+text-shadow: #666 1px 0.03em 1px;
+color: #06C;
+font-size: 15px;
+font-weight: bold;
+text-transform: uppercase;
+-moz-border-radius: 9px;
+-webkit-border-radius: 9px;
+border-radius: 9px;
+border-bottom: 2px solid #CCC;
+border-left: 2px solid #CCC;
+border-right: 2px solid #CCC;
+padding-top: 5px;
+background-color: #FFFFFF;
+}
+
+.registrar{
+float: left;
+padding:0;
+margin: 15px 0 0 90px;
+background:#d0e8f7; color:#418eb6;
+text-shadow: #999 2px 0.05em 2px; /*cambia el fondo de la letra */
+text-transform: capitalize; /*cambia el fondo de la letra */
+width:100px;height:25px; /* tamaño del boton registrar */
+}
+
+#registrar:hover{
+background:#418eb6; color:#d0e8f7;
+}
+
+input,#registrar{
+-moz-border-radius:10px;
+-webkit-border-radius:10px;
+}
